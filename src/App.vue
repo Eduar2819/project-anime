@@ -2,17 +2,17 @@
   <nav>
     <Navbar/>
   </nav>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HomePage />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomePage from './components/HomePage.vue'
 import Navbar from './components/NavBar.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    HomePage,
     Navbar
   }
 }
