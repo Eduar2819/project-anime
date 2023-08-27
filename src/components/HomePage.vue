@@ -1,9 +1,7 @@
 <template>
-    <body style="background-color: gray;">
-        <div class="container">
+        <div class="container my-2">
             <h1>Inicio de la pagina principal</h1>
         </div>
-    </body>
 </template>
 <script>
 
@@ -19,10 +17,6 @@
         background-color: white;
          border-left: none; 
          
-    }
-
-    body {
-        height: 100vh;
     }
     .container{
         background-color: aqua;
