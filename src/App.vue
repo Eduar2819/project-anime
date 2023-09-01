@@ -7,7 +7,7 @@
     <div class="container image rounded">
       <div class="titulo">
         <h1 class="fw-light"><span class="fw-bold">AnimeFLV</span> tu fuente de anime online gratis en HD</h1>
-    </div>
+      </div>
     </div>
     <HomePage/>
   </div>
