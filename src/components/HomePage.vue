@@ -6,11 +6,11 @@
                     <span>Hoy</span>
                 </div>
             </div>
-            <div class="row row-cols-1 row row-cols-sm-2 row row-cols-lg-4  ">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4  ">
                 <div v-for="item in 20" :key="item" class="col p-0">
                     <div class="card control m-2">
                         <div class="zoom rounded">
-                             <img class="rounded" src="../assets/img/nezuko.webp" alt="">
+                             <img class="rounded" src="../assets/img/jujus.jpg" alt="">
                         </div>
                         <div class="gradiente">
                             <div class="card-img-overlay p-0 gradiente">
@@ -73,7 +73,7 @@
     }
 
     .control:hover .zoom img{
-        transform: scale(1.5);
+        transform: scale(1.2);
         opacity: .5;
     }
 </style>
