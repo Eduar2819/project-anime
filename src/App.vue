@@ -7,7 +7,7 @@
     <div class="container image rounded">
       <div class="titulo">
         <h1 class="fw-light"><span class="fw-bold">AnimeFLV</span> tu fuente de anime online gratis en HD</h1>
-    </div>
+      </div>
     </div>
     <HomePage/>
   </div>
@@ -36,7 +36,7 @@ export default {
     padding: 0;
 }
 body{
-  height: 100vh;
+  min-height: 100vh;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
