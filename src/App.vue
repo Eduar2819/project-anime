@@ -36,7 +36,7 @@ export default {
     padding: 0;
 }
 body{
-  height: 100vh;
+  min-height: 100vh;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
