@@ -3,13 +3,20 @@
   <nav>
     <Navbar/>
   </nav>
-  <div>
-    <div class="container image rounded">
+  <div class="container">
+    <div class="container image rounded" style="margin-bottom:20px">
       <div class="titulo">
         <h1 class="fw-light"><span class="fw-bold">AnimeFLV</span> tu fuente de anime online gratis en HD</h1>
       </div>
     </div>
-    <HomePage/>
+    <div class="d-flex containerFlex">
+      <aside>
+        <LateralPage />
+      </aside>
+      <div>
+        <HomePage/>
+      </div>
+    </div>
   </div>
     
 </body>
@@ -18,13 +25,15 @@
 
 <script>
 import HomePage from './components/HomePage.vue'
+import LateralPage from './components/LateralInicio.vue'
 import Navbar from './components/NavBar.vue'
 
 export default {
   name: 'App',
   components: {
     HomePage,
-    Navbar
+    Navbar,
+    LateralPage
   }
 }
 </script>
@@ -61,5 +70,18 @@ body{
   font-size: 25px;
   margin-bottom: 0;
   letter-spacing: -1;
+}
+
+@media (max-width: 576px) { 
+.containerFlex{
+    flex-wrap: wrap !important
+  }
+ }
+
+
+@media (max-width: 768px) { 
+  .containerFlex{
+    flex-wrap: wrap !important
+  }
 }
 </style>
